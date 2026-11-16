@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaderia Santa Rosa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylo.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 " href="index.html">Panadería Santa Rosa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto fs-5">
+                <li class="nav-item">
+                    <a class="nav-link mx-3" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3" href="pedidos.html">Pedidos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3 " href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div id="carruselPanes" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/imag1.jpg" class="d-block w-100" alt="Pan 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imag2.jpg" class="d-block w-100" alt="Pan 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imag3.jpg" class="d-block w-100" alt="Pan 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselPanes" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselPanes" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+
+    </div>
+        
+    <section class="container text-center my-5">
+        <h1 class="titulo-seccion">Bienvenidos a la Panadería Santa Rosa</h1>
+        <p class="lead">Te ofrecemos pan de buena calidad, horneado cada día para ti y tu familia.</p>
+    </section>
+
+    
+    <section class="container my-5 seccion-blanca">
+        <div class="row align-items-center g-4">
+            <div class="col-12 col-md-6">
+                <h2 class="titulo-seccion">Productos</h2>
+                <p>Panes, pasteles y bocaditos preparados con ingredientes de calidad. Descubre todo lo que tenemos para ti.</p>
+                <a href="productos.html" class="btn btn-primary">Ver productos</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div id="carruselProductos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active">
+                            <img src="img/frances.jpg" class="d-block w-100" alt="Pan francés">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/spong-cake.jpg" class="d-block w-100" alt="Sponge cake">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/alfajores.jpg" class="d-block w-100" alt="Alfajores">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/torta-choco.jpg" class="d-block w-100" alt="Pastel de chocolate">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/yema.jpg" class="d-block w-100" alt="Pan de yema">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="container my-5 seccion-blanca">
+        <div class="row align-items-center g-4">
+            <div class="col-12 col-md-6">
+                <img src="img/ft_pedidos.png" class="img-fluid rounded" alt="Haz tu pedido">
+            </div>
+            <div class="col-12 col-md-6">
+                <h2 class="titulo-seccion">Pedidos</h2>
+                <p>Elige tus productos, llena tus datos y recoge tu pedido en la tienda. Rápido y sin hacer cola.</p>
+                <a href="pedidos.html" class="btn btn-primary">Hacer pedido</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5 seccion-blanca">
+        <div class="row align-items-center g-4">
+            <div class="col-12 col-md-6">
+                <h2 class="titulo-seccion">Contacto</h2>
+                <p>¿Tienes alguna duda o quieres hacer un encargo especial? Escríbenos o visítanos, con gusto te atendemos.</p>
+                <a href="contacto.html" class="btn btn-primary">Contáctanos</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="img/ft_contacto.png" class="img-fluid rounded" alt="Contacto Panadería Santa Rosa">
+            </div>
+        </div>
+    </section>
+    
+
+<footer class="footer-panaderia">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <h3>Panadería Santa Rosa</h3>
+                <p>
+                    Elaboramos panes, pasteles y bocaditos
+                    con ingredientes de calidad y mucho cariño
+                    para compartir con tu familia.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h4>Enlaces rápidos</h4>
+                <ul class="lista-footer">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="pedidos.html">Pedidos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h4>Contáctanos</h4>
+                <p>📞 +51 999 999 999</p>
+                <p>✉️ contacto@panaderiasantarosa.example</p>
+                <p>📍 Plaza Mayor de Lima, Perú (referencial)</p>
+
+                <div class="redes-footer">
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center derechos-footer">
+            <p>
+                © 2026 Panadería Santa Rosa.
+                Todos los derechos reservados.
+            </p>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
